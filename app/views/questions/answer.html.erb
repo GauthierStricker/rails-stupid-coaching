@@ -1,0 +1,13 @@
+
+<div class="user-question-block">
+<p> <%= @question %> </p>
+<p style="font-style: italic">- You</p>
+</div>
+<br>
+<div class="coach-answer-block">
+<p> <%= @coach_answer %> </p>
+<p style="font-style: italic; font-weight: bold">- Your Coach</p>
+</div>
+<br>
+<p><%= link_to "Ask a new question", ask_path %></p>
+
